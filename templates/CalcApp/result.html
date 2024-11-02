@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends "CalcApp/base.html" %}
+{% block body_block %}
+<div class="jumbotron">
+    result: {{result}}
+    <br>
+    Go back to home page 
+    <a href="{% url 'home' %}">Home</a>
+</div>
+   
+{% endblock %}
